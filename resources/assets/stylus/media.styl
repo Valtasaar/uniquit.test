@@ -1,0 +1,96 @@
+/*
+  Max width
+*/
+/* Media max-width: 1200 */
+@media screen and  (max-width: 1200px)
+  .header__notify
+    display: none
+
+  .header__notify-mobile
+    display: block
+
+/* Media max-width: 1024 */
+@media screen and  (max-width: 1024px)
+  .main__header
+    height: 120px
+    .wrap
+      display: flex
+      flex-direction: column
+      justify-content: space-between
+      align-items: stretch
+      flex-wrap: nowrap
+    .breadcrumb li
+      font-size: 26px
+
+  .main__tabs
+    .nav-tabs
+      display: flex
+      flex-direction: row
+      align-items: center
+      justify-content: space-between
+      flex-wrap: wrap
+      li
+        flex-grow: 1
+        width: auto
+
+  .main__menu
+    position: absolute
+    top: 243px
+    left: -100%
+    width: 100%
+    max-width: 400px
+    z-index: 1
+
+  .main__info
+    width: 100%
+
+  .main__info-title
+    padding-bottom: 10px
+    .title
+      font-size: 28px
+      width: 100%
+      padding-left: 0
+      order: -1
+    .hamburger
+      display: block
+
+/* Media max-width: 992 */
+@media screen and  (max-width: 992px)
+  .main__tabs .nav > li > a
+    padding: 10px 30px
+
+/* Media max-width: 768 */
+@media screen and  (max-width: 768px)
+  .header
+    height: 90px
+    .title
+      order: -1
+      span
+        font-size: 18px
+
+  .main__info-title
+    input
+      width: 220px
+      padding-left: 25px
+
+  .main__list-head a
+    width: 50%
+    line-height: 18px
+
+  .main__item-title-count
+    width: 70px
+
+  .main__item-title-text
+    width: 50%
+
+  .main__menu
+    top: 290px
+
+/*
+  Min width
+*/
+/* Media min-width: 1025 */
+/*
+@media screen and  (min-width: 1025px)
+  #mm-main-menu
+    display: none*/

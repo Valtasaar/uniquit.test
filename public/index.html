@@ -1,0 +1,1255 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>Title</title>
+
+  <meta name="description" content="">
+
+  <!-- Fontawesome -->
+  <script defer src="https://use.fontawesome.com/releases/v5.0.6/js/all.js"></script>
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Oxygen:light,regular,bold" rel="stylesheet">
+
+  <!-- Styles -->
+  <link href="css/lib-styles.css" rel="stylesheet">
+  <link href="css/app.css" rel="stylesheet">
+</head>
+<body>
+<!-- Header -->
+<header class="header">
+  <div class="container">
+    <div class="row">
+      <div class="fl_row_center">
+        <!-- Header menu btn -->
+        <div class="menu col-md-4 col-sm-3 col-xs-6">
+          <button class="hamburger hamburger--collapse js-site-menu-btn" type="button">
+                <span class="hamburger-box">
+                  <span class="hamburger-inner"></span>
+                </span>
+          </button>
+        </div>
+
+        <!-- Header title -->
+        <div class="title col-md-4 col-sm-6 col-xs-12 text-center">
+          <span class="font_oxygen_bold">Brand Name Goes Here 24</span>
+        </div>
+
+        <!-- Header user menu -->
+        <div class="header__right col-md-4 col-sm-3 col-xs-6">
+          <div class="fl_row_end">
+            <div class="header__notify">
+              <ul class="font_oxygen_regular fl_row_sb">
+                <!-- Header user menu item -->
+                <li>
+                  <a href="#" title="Provider Chat" class="fl_col_center">
+                    <i class="far fa-comments"></i>
+                    <span>Provider Chat</span>
+                  </a>
+                </li>
+
+                <!-- Header user menu item -->
+                <li>
+                  <a href="#" title="Dashboard" class="fl_col_center">
+                    <i class="fas fa-window-maximize"></i>
+                    <span>Dashboard</span>
+                  </a>
+                </li>
+
+                <!-- Header user menu item -->
+                <li>
+                  <a href="#" title="Scheduler" class="fl_col_center">
+                    <i class="far fa-calendar"></i>
+                    <span>Scheduler</span>
+                  </a>
+                </li>
+
+                <!-- Header user menu item -->
+                <li>
+                  <a href="#" title="Notifications" class="fl_col_center">
+                    <i class="fas fa-bell"></i>
+                    <span>Notifications</span>
+                  </a>
+                </li>
+              </ul>
+            </div>
+
+            <div class="header__notify-mobile">
+              <ul class="header__user-menu">
+                <li>
+                  <a href="#" title="User menu" class="fl_col_center js-user-menu-btn">
+                    <i class="fas fa-bars"></i>
+                    <span>User menu</span>
+                  </a>
+                </li>
+              </ul>
+            </div>
+
+            <!-- Header logo -->
+            <div class="logo">
+              <a href="#" title="logo">
+                <img src="img/user_logo.jpg" alt="User Logo" class="user_logo img-circle">
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</header>
+
+<!-- Main section -->
+<section class="main">
+  <div class="main__header fl_row_center">
+    <div class="container">
+      <div class="wrap fl_row_sb">
+        <!-- Main title -->
+        <ol class="breadcrumb font_oxygen_regular fl_row_center">
+          <li><a href="#">Settings</a></li>
+          <li class="active"><span>Workflow</span></li>
+        </ol>
+
+        <!-- Main tabs -->
+        <div class="row">
+          <div class="main__tabs">
+            <ul class="nav nav-tabs font_oxygen_regular" role="tablist">
+              <li role="presentation">
+                <a href="#pan1" aria-controls="home" role="tab" data-toggle="tab">User</a>
+              </li>
+
+              <li role="presentation" class="active">
+                <a href="#pan2" aria-controls="profile" role="tab" data-toggle="tab">Platform</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Main content -->
+  <div class="main__content clearfix">
+    <div class="tab-content">
+      <!-- Main content tab -->
+      <div role="tabpanel" class="tab-pane clearfix fl_row" id="pan1">
+        <!-- Main content aside -->
+        <aside class="main__menu font_oxygen_regular pull-left js-main-menu">
+          <ul>
+            <li>
+              <a href="#" title="Integrations">
+                <i class="fas fa-cogs"></i>
+                <span>Integrations</span>
+              </a>
+            </li>
+
+            <li>
+              <a href="#" title="Insurance">
+                <i class="fas fa-shield-alt"></i>
+                <span>Insurance</span>
+              </a>
+            </li>
+
+            <li class="active">
+              <a href="#" title="Workflows">
+                <i class="fas fa-code-branch"></i>
+                <span>Workflows</span>
+              </a>
+            </li>
+          </ul>
+        </aside>
+
+        <!-- Main content info -->
+        <div class="main__info pull-left">
+          <!-- Main content title -->
+          <div class="main__info-title fl_row_sb_end">
+            <span class="font_oxygen_regular title">User</span>
+
+            <form method="GET" action="/" class="search-form pos_rel">
+              <input type="text" placeholder="Enter Your Search">
+              <i class="fas fa-search"></i>
+            </form>
+          </div>
+        </div>
+      </div>
+
+      <div role="tabpanel" class="tab-pane active clearfix fl_row" id="pan2">
+        <!-- Main content aside -->
+        <aside class="main__menu font_oxygen_regular pull-left js-main-menu">
+          <ul>
+            <li>
+              <a href="#" title="Client Details">
+                <i class="fas fa-user"></i>
+                <span>Client Details</span>
+              </a>
+            </li>
+
+            <li>
+              <a href="#" title="Modules">
+                <i class="fas fa-toggle-on"></i>
+                <span>Modules</span>
+              </a>
+            </li>
+
+            <li>
+              <a href="#" title="Branding">
+                <i class="fas fa-paint-brush"></i>
+                <span>Branding</span>
+              </a>
+            </li>
+
+            <li>
+              <a href="#" title="Services & Pricing">
+                <i class="fas fa-window-maximize"></i>
+                <span>Services & Pricing</span>
+              </a>
+            </li>
+
+            <li>
+              <a href="#" title="Content">
+                <i class="fab fa-amilia"></i>
+                <span>Content</span>
+              </a>
+            </li>
+
+            <li>
+              <a href="#" title="Scheduling">
+                <i class="far fa-calendar"></i>
+                <span>Scheduling</span>
+              </a>
+            </li>
+
+            <li>
+              <a href="#" title="Notifications">
+                <i class="far fa-calendar-check"></i>
+                <span>Notifications</span>
+              </a>
+            </li>
+
+            <li>
+              <a href="#" title="Coding">
+                <i class="fas fa-code"></i>
+                <span>Coding</span>
+              </a>
+            </li>
+
+            <li>
+              <a href="#" title="Orgs & Locations">
+                <i class="fas fa-building"></i>
+                <span>Orgs & Locations</span>
+              </a>
+            </li>
+            <li>
+              <a href="#" title="Integrations">
+                <i class="fas fa-cogs"></i>
+                <span>Integrations</span>
+              </a>
+            </li>
+
+            <li>
+              <a href="#" title="Insurance">
+                <i class="fas fa-shield-alt"></i>
+                <span>Insurance</span>
+              </a>
+            </li>
+
+            <li class="active">
+              <a href="#" title="Workflows">
+                <i class="fas fa-code-branch"></i>
+                <span>Workflows</span>
+              </a>
+            </li>
+          </ul>
+        </aside>
+
+        <!-- Main content info -->
+        <div class="main__info pull-left">
+          <!-- Main content title -->
+          <div class="main__info-title fl_row_sb_end">
+            <button class="hamburger hamburger--collapse js-main-menu-btn" type="button">
+                <span class="hamburger-box">
+                  <span class="hamburger-inner"></span>
+                </span>
+            </button>
+
+            <span class="font_oxygen_regular title">Workflow Options</span>
+
+            <form method="GET" action="/" class="search-form pos_rel">
+              <input type="text" placeholder="Enter Your Search">
+              <i class="fas fa-search"></i>
+            </form>
+          </div>
+
+          <!-- Main content list -->
+          <div class="main__list">
+            <div id="accordion" role="tablist" aria-multiselectable="true">
+              <!-- Main content list item title -->
+              <div class="panel main__list-item main__list-item_title font_oxygen_regular fl_row_sb">
+                <span class="main__item-icon fl_row_center">
+                  <i class="fas fa-arrows-alt-v"></i>
+                  <i class="fas fa-align-justify"></i>
+                </span>
+
+                <div class="main__item-title-text fl_row_center">
+                  <span>Workflow Category/Question</span>
+                </div>
+
+                <div class="main__item-title-count fl_row_cc text-center">
+                  <span>Count</span>
+                </div>
+              </div>
+
+              <!-- Main content list item -->
+              <div class="panel main__list-item font_oxygen_regular">
+                <!-- Main content list item head -->
+                <div class="main__list-head fl_row_sb">
+                  <span class="main__item-icon fl_row_center">
+                    <i class="fas fa-arrows-alt-v"></i>
+                  </span>
+
+                  <a class="collapsed" role="button" data-toggle="collapse"
+                     data-parent="#accordion" href="#item1" aria-expanded="false"
+                     aria-controls="item1"
+                  >
+                    Allow Patients to Register if...
+                  </a>
+
+                  <span class="main__item-count fl_row_cc">
+                    <span class="font_oxygen_bold">1</span>
+                    <i class="fas fa-angle-right"></i>
+                  </span>
+                </div>
+
+                <!-- Main content list body -->
+                <div id="item1" class="main__list-body panel-collapse collapse pos_rel"
+                     role="tabpanel" aria-labelledby="item1"
+                >
+                  <!-- Main content list datails -->
+                  <div class="main__list-item-details">
+                    <i class="fas fa-caret-down"></i>
+                    <span>Workflow details</span>
+                  </div>
+
+                  <!-- Main content list item body -->
+                  <div class="main__list-item-body">
+                    <div class="main__list-item-content fl_row">
+                      <!-- Main content list item rule -->
+                      <div class="main__list-rule fl_col_sb">
+                        <!-- Main content list item rule hed -->
+                        <div class="main__list-rule-head pos_rel fl_row_sb">
+                          <div class="main__list-rule-block bg_green1 main__list-rule-block_left fl_row_cc">
+                            <i class="fas fa-map-signs"></i>
+                          </div>
+
+                          <div class="main__list-rule-block bg_green2 main__list-rule-block_right fl_row_cc">
+                            <i class="fas fa-map-marker-alt"></i>
+                          </div>
+
+                          <div class="main__list-rule-plus fl_row_cc">
+                            <i class="fas fa-plus"></i>
+                          </div>
+                        </div>
+
+                        <!-- Main content list item rule body -->
+                        <div class="main__list-rule-body">
+                          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias aliquam cumque error, est
+                          eveniet facilis id in libero magnam magni maxime modi neque numquam obcaecati quae quaerat
+                          quis quos sit?
+                        </div>
+
+                        <!-- Main content list item rule footer -->
+                        <div class="main__list-rule-footer fl_row_sb">
+                          <form method="POST" action="/">
+                            <label class="rule-checkbox">
+                              <input type="checkbox">
+                              <span></span>
+                            </label>
+                          </form>
+
+                          <a href="#" title="trash"><i class="fas fa-trash-alt"></i></a>
+
+                          <a href="#" title="cog"><i class="fas fa-cog"></i></a>
+                        </div>
+                      </div>
+
+                      <!-- Main content list item add rules -->
+                      <div class="main__list-add-rules fl_col_sb text-center">
+                        <div class="fl_col_center">
+                          <i class="fas fa-plus"></i>
+                          <span>Add Rule</span>
+                        </div>
+
+                        <div class="fl_col_center">
+                          <i class="fas fa-plus"></i>
+                          <span>Add Compound Rule</span>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <!-- Main content list item -->
+              <div class="panel main__list-item font_oxygen_regular">
+                <!-- Main content list item head -->
+                <div class="main__list-head fl_row_sb">
+                  <span class="main__item-icon fl_row_center">
+                    <i class="fas fa-arrows-alt-v"></i>
+                  </span>
+
+                  <a class="collapsed" role="button" data-toggle="collapse"
+                     data-parent="#accordion" href="#item2" aria-expanded="false"
+                     aria-controls="item2"
+                  >
+                    Allow Patients to Access On Demand if...
+                  </a>
+
+                  <span class="main__item-count fl_row_cc">
+                    <span class="font_oxygen_bold">0</span>
+                    <i class="fas fa-angle-right"></i>
+                  </span>
+                </div>
+
+                <!-- Main content list body -->
+                <div id="item2" class="main__list-body panel-collapse collapse pos_rel"
+                     role="tabpanel" aria-labelledby="item2"
+                >
+                  <!-- Main content list datails -->
+                  <div class="main__list-item-details">
+                    <i class="fas fa-caret-down"></i>
+                    <span>Workflow details</span>
+                  </div>
+
+                  <!-- Main content list item body -->
+                  <div class="main__list-item-body">
+                    <div class="main__list-item-content fl_row">
+                      <!-- Main content list item add rules -->
+                      <div class="main__list-add-rules fl_col_sb text-center">
+                        <div class="fl_col_center">
+                          <i class="fas fa-plus"></i>
+                          <span>Add Rule</span>
+                        </div>
+
+                        <div class="fl_col_center">
+                          <i class="fas fa-plus"></i>
+                          <span>Add Compound Rule</span>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <!-- Main content list item -->
+              <div class="panel main__list-item font_oxygen_regular">
+                <!-- Main content list item head -->
+                <div class="main__list-head fl_row_sb">
+                  <span class="main__item-icon fl_row_center">
+                    <i class="fas fa-arrows-alt-v"></i>
+                  </span>
+
+                  <a class="collapsed" role="button" data-toggle="collapse"
+                     data-parent="#accordion" href="#item3" aria-expanded="false"
+                     aria-controls="item3"
+                  >
+                    Allow Patients to Access Self-Scheduling if...
+                  </a>
+
+                  <span class="main__item-count fl_row_cc">
+                    <span class="font_oxygen_bold">10</span>
+                    <i class="fas fa-angle-right"></i>
+                  </span>
+                </div>
+
+                <!-- Main content list body -->
+                <div id="item3" class="main__list-body panel-collapse collapse pos_rel"
+                     role="tabpanel" aria-labelledby="item3"
+                >
+                  <!-- Main content list datails -->
+                  <div class="main__list-item-details">
+                    <i class="fas fa-caret-down"></i>
+                    <span>Workflow details</span>
+                  </div>
+
+                  <!-- Main content list item body -->
+                  <div class="main__list-item-body">
+                    <div class="main__list-item-content fl_row">
+                      <!-- Main content list item rule -->
+                      <div class="main__list-rule fl_col_sb">
+                        <!-- Main content list item rule hed -->
+                        <div class="main__list-rule-head pos_rel fl_row_sb">
+                          <div class="main__list-rule-block bg_green1 main__list-rule-block_left fl_row_cc">
+                            <i class="fas fa-map-signs"></i>
+                          </div>
+
+                          <div class="main__list-rule-block bg_green2 main__list-rule-block_right fl_row_cc">
+                            <i class="fas fa-map-marker-alt"></i>
+                          </div>
+
+                          <div class="main__list-rule-plus fl_row_cc">
+                            <i class="fas fa-plus"></i>
+                          </div>
+                        </div>
+
+                        <!-- Main content list item rule body -->
+                        <div class="main__list-rule-body">
+                          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias aliquam cumque error, est
+                          eveniet facilis id in libero magnam magni maxime modi neque numquam obcaecati quae quaerat
+                          quis quos sit?
+                        </div>
+
+                        <!-- Main content list item rule footer -->
+                        <div class="main__list-rule-footer fl_row_sb">
+                          <form method="POST" action="/">
+                            <label class="rule-checkbox">
+                              <input type="checkbox">
+                              <span></span>
+                            </label>
+                          </form>
+
+                          <a href="#" title="trash"><i class="fas fa-trash-alt"></i></a>
+
+                          <a href="#" title="cog"><i class="fas fa-cog"></i></a>
+                        </div>
+                      </div>
+
+                      <!-- Main content list item rule -->
+                      <div class="main__list-rule fl_col_sb">
+                        <!-- Main content list item rule hed -->
+                        <div class="main__list-rule-head pos_rel fl_row_sb">
+                          <div class="main__list-rule-block bg_green1 main__list-rule-block_left fl_row_cc">
+                            <i class="fas fa-map-signs"></i>
+                          </div>
+
+                          <div class="main__list-rule-block bg_green2 main__list-rule-block_right fl_row_cc">
+                            <i class="fas fa-map-marker-alt"></i>
+                          </div>
+
+                          <div class="main__list-rule-plus fl_row_cc">
+                            <i class="fas fa-plus"></i>
+                          </div>
+                        </div>
+
+                        <!-- Main content list item rule body -->
+                        <div class="main__list-rule-body">
+                          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias aliquam cumque error, est
+                          eveniet facilis id in libero magnam magni maxime modi neque numquam obcaecati quae quaerat
+                          quis quos sit?
+                        </div>
+
+                        <!-- Main content list item rule footer -->
+                        <div class="main__list-rule-footer fl_row_sb">
+                          <form method="POST" action="/">
+                            <label class="rule-checkbox">
+                              <input type="checkbox">
+                              <span></span>
+                            </label>
+                          </form>
+
+                          <a href="#" title="trash"><i class="fas fa-trash-alt"></i></a>
+
+                          <a href="#" title="cog"><i class="fas fa-cog"></i></a>
+                        </div>
+                      </div>
+
+                      <!-- Main content list item rule -->
+                      <div class="main__list-rule fl_col_sb">
+                        <!-- Main content list item rule hed -->
+                        <div class="main__list-rule-head pos_rel fl_row_sb">
+                          <div class="main__list-rule-block bg_green1 main__list-rule-block_left fl_row_cc">
+                            <i class="fas fa-map-signs"></i>
+                          </div>
+
+                          <div class="main__list-rule-block bg_green2 main__list-rule-block_right fl_row_cc">
+                            <i class="fas fa-map-marker-alt"></i>
+                          </div>
+
+                          <div class="main__list-rule-plus fl_row_cc">
+                            <i class="fas fa-plus"></i>
+                          </div>
+                        </div>
+
+                        <!-- Main content list item rule body -->
+                        <div class="main__list-rule-body">
+                          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias aliquam cumque error, est
+                          eveniet facilis id in libero magnam magni maxime modi neque numquam obcaecati quae quaerat
+                          quis quos sit?
+                        </div>
+
+                        <!-- Main content list item rule footer -->
+                        <div class="main__list-rule-footer fl_row_sb">
+                          <form method="POST" action="/">
+                            <label class="rule-checkbox">
+                              <input type="checkbox">
+                              <span></span>
+                            </label>
+                          </form>
+
+                          <a href="#" title="trash"><i class="fas fa-trash-alt"></i></a>
+
+                          <a href="#" title="cog"><i class="fas fa-cog"></i></a>
+                        </div>
+                      </div>
+
+                      <!-- Main content list item rule -->
+                      <div class="main__list-rule fl_col_sb">
+                        <!-- Main content list item rule hed -->
+                        <div class="main__list-rule-head pos_rel fl_row_sb">
+                          <div class="main__list-rule-block bg_green1 main__list-rule-block_left fl_row_cc">
+                            <i class="fas fa-map-signs"></i>
+                          </div>
+
+                          <div class="main__list-rule-block bg_green2 main__list-rule-block_right fl_row_cc">
+                            <i class="fas fa-map-marker-alt"></i>
+                          </div>
+
+                          <div class="main__list-rule-plus fl_row_cc">
+                            <i class="fas fa-plus"></i>
+                          </div>
+                        </div>
+
+                        <!-- Main content list item rule body -->
+                        <div class="main__list-rule-body">
+                          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias aliquam cumque error, est
+                          eveniet facilis id in libero magnam magni maxime modi neque numquam obcaecati quae quaerat
+                          quis quos sit?
+                        </div>
+
+                        <!-- Main content list item rule footer -->
+                        <div class="main__list-rule-footer fl_row_sb">
+                          <form method="POST" action="/">
+                            <label class="rule-checkbox">
+                              <input type="checkbox">
+                              <span></span>
+                            </label>
+                          </form>
+
+                          <a href="#" title="trash"><i class="fas fa-trash-alt"></i></a>
+
+                          <a href="#" title="cog"><i class="fas fa-cog"></i></a>
+                        </div>
+                      </div>
+
+                      <!-- Main content list item rule -->
+                      <div class="main__list-rule fl_col_sb">
+                        <!-- Main content list item rule hed -->
+                        <div class="main__list-rule-head pos_rel fl_row_sb">
+                          <div class="main__list-rule-block bg_green1 main__list-rule-block_left fl_row_cc">
+                            <i class="fas fa-map-signs"></i>
+                          </div>
+
+                          <div class="main__list-rule-block bg_green2 main__list-rule-block_right fl_row_cc">
+                            <i class="fas fa-map-marker-alt"></i>
+                          </div>
+
+                          <div class="main__list-rule-plus fl_row_cc">
+                            <i class="fas fa-plus"></i>
+                          </div>
+                        </div>
+
+                        <!-- Main content list item rule body -->
+                        <div class="main__list-rule-body">
+                          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias aliquam cumque error, est
+                          eveniet facilis id in libero magnam magni maxime modi neque numquam obcaecati quae quaerat
+                          quis quos sit?
+                        </div>
+
+                        <!-- Main content list item rule footer -->
+                        <div class="main__list-rule-footer fl_row_sb">
+                          <form method="POST" action="/">
+                            <label class="rule-checkbox">
+                              <input type="checkbox">
+                              <span></span>
+                            </label>
+                          </form>
+
+                          <a href="#" title="trash"><i class="fas fa-trash-alt"></i></a>
+
+                          <a href="#" title="cog"><i class="fas fa-cog"></i></a>
+                        </div>
+                      </div>
+
+                      <!-- Main content list item rule -->
+                      <div class="main__list-rule fl_col_sb">
+                        <!-- Main content list item rule hed -->
+                        <div class="main__list-rule-head pos_rel fl_row_sb">
+                          <div class="main__list-rule-block bg_green1 main__list-rule-block_left fl_row_cc">
+                            <i class="fas fa-map-signs"></i>
+                          </div>
+
+                          <div class="main__list-rule-block bg_green2 main__list-rule-block_right fl_row_cc">
+                            <i class="fas fa-map-marker-alt"></i>
+                          </div>
+
+                          <div class="main__list-rule-plus fl_row_cc">
+                            <i class="fas fa-plus"></i>
+                          </div>
+                        </div>
+
+                        <!-- Main content list item rule body -->
+                        <div class="main__list-rule-body">
+                          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias aliquam cumque error, est
+                          eveniet facilis id in libero magnam magni maxime modi neque numquam obcaecati quae quaerat
+                          quis quos sit?
+                        </div>
+
+                        <!-- Main content list item rule footer -->
+                        <div class="main__list-rule-footer fl_row_sb">
+                          <form method="POST" action="/">
+                            <label class="rule-checkbox">
+                              <input type="checkbox">
+                              <span></span>
+                            </label>
+                          </form>
+
+                          <a href="#" title="trash"><i class="fas fa-trash-alt"></i></a>
+
+                          <a href="#" title="cog"><i class="fas fa-cog"></i></a>
+                        </div>
+                      </div>
+
+                      <!-- Main content list item rule -->
+                      <div class="main__list-rule fl_col_sb">
+                        <!-- Main content list item rule hed -->
+                        <div class="main__list-rule-head pos_rel fl_row_sb">
+                          <div class="main__list-rule-block bg_green1 main__list-rule-block_left fl_row_cc">
+                            <i class="fas fa-map-signs"></i>
+                          </div>
+
+                          <div class="main__list-rule-block bg_green2 main__list-rule-block_right fl_row_cc">
+                            <i class="fas fa-map-marker-alt"></i>
+                          </div>
+
+                          <div class="main__list-rule-plus fl_row_cc">
+                            <i class="fas fa-plus"></i>
+                          </div>
+                        </div>
+
+                        <!-- Main content list item rule body -->
+                        <div class="main__list-rule-body">
+                          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias aliquam cumque error, est
+                          eveniet facilis id in libero magnam magni maxime modi neque numquam obcaecati quae quaerat
+                          quis quos sit?
+                        </div>
+
+                        <!-- Main content list item rule footer -->
+                        <div class="main__list-rule-footer fl_row_sb">
+                          <form method="POST" action="/">
+                            <label class="rule-checkbox">
+                              <input type="checkbox">
+                              <span></span>
+                            </label>
+                          </form>
+
+                          <a href="#" title="trash"><i class="fas fa-trash-alt"></i></a>
+
+                          <a href="#" title="cog"><i class="fas fa-cog"></i></a>
+                        </div>
+                      </div>
+
+                      <!-- Main content list item rule -->
+                      <div class="main__list-rule fl_col_sb">
+                        <!-- Main content list item rule hed -->
+                        <div class="main__list-rule-head pos_rel fl_row_sb">
+                          <div class="main__list-rule-block bg_green1 main__list-rule-block_left fl_row_cc">
+                            <i class="fas fa-map-signs"></i>
+                          </div>
+
+                          <div class="main__list-rule-block bg_green2 main__list-rule-block_right fl_row_cc">
+                            <i class="fas fa-map-marker-alt"></i>
+                          </div>
+
+                          <div class="main__list-rule-plus fl_row_cc">
+                            <i class="fas fa-plus"></i>
+                          </div>
+                        </div>
+
+                        <!-- Main content list item rule body -->
+                        <div class="main__list-rule-body">
+                          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias aliquam cumque error, est
+                          eveniet facilis id in libero magnam magni maxime modi neque numquam obcaecati quae quaerat
+                          quis quos sit?
+                        </div>
+
+                        <!-- Main content list item rule footer -->
+                        <div class="main__list-rule-footer fl_row_sb">
+                          <form method="POST" action="/">
+                            <label class="rule-checkbox">
+                              <input type="checkbox">
+                              <span></span>
+                            </label>
+                          </form>
+
+                          <a href="#" title="trash"><i class="fas fa-trash-alt"></i></a>
+
+                          <a href="#" title="cog"><i class="fas fa-cog"></i></a>
+                        </div>
+                      </div>
+
+                      <!-- Main content list item rule -->
+                      <div class="main__list-rule fl_col_sb">
+                        <!-- Main content list item rule hed -->
+                        <div class="main__list-rule-head pos_rel fl_row_sb">
+                          <div class="main__list-rule-block bg_green1 main__list-rule-block_left fl_row_cc">
+                            <i class="fas fa-map-signs"></i>
+                          </div>
+
+                          <div class="main__list-rule-block bg_green2 main__list-rule-block_right fl_row_cc">
+                            <i class="fas fa-map-marker-alt"></i>
+                          </div>
+
+                          <div class="main__list-rule-plus fl_row_cc">
+                            <i class="fas fa-plus"></i>
+                          </div>
+                        </div>
+
+                        <!-- Main content list item rule body -->
+                        <div class="main__list-rule-body">
+                          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias aliquam cumque error, est
+                          eveniet facilis id in libero magnam magni maxime modi neque numquam obcaecati quae quaerat
+                          quis quos sit?
+                        </div>
+
+                        <!-- Main content list item rule footer -->
+                        <div class="main__list-rule-footer fl_row_sb">
+                          <form method="POST" action="/">
+                            <label class="rule-checkbox">
+                              <input type="checkbox">
+                              <span></span>
+                            </label>
+                          </form>
+
+                          <a href="#" title="trash"><i class="fas fa-trash-alt"></i></a>
+
+                          <a href="#" title="cog"><i class="fas fa-cog"></i></a>
+                        </div>
+                      </div>
+
+                      <!-- Main content list item rule -->
+                      <div class="main__list-rule fl_col_sb">
+                        <!-- Main content list item rule hed -->
+                        <div class="main__list-rule-head pos_rel fl_row_sb">
+                          <div class="main__list-rule-block bg_green1 main__list-rule-block_left fl_row_cc">
+                            <i class="fas fa-map-signs"></i>
+                          </div>
+
+                          <div class="main__list-rule-block bg_green2 main__list-rule-block_right fl_row_cc">
+                            <i class="fas fa-map-marker-alt"></i>
+                          </div>
+
+                          <div class="main__list-rule-plus fl_row_cc">
+                            <i class="fas fa-plus"></i>
+                          </div>
+                        </div>
+
+                        <!-- Main content list item rule body -->
+                        <div class="main__list-rule-body">
+                          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias aliquam cumque error, est
+                          eveniet facilis id in libero magnam magni maxime modi neque numquam obcaecati quae quaerat
+                          quis quos sit?
+                        </div>
+
+                        <!-- Main content list item rule footer -->
+                        <div class="main__list-rule-footer fl_row_sb">
+                          <form method="POST" action="/">
+                            <label class="rule-checkbox">
+                              <input type="checkbox">
+                              <span></span>
+                            </label>
+                          </form>
+
+                          <a href="#" title="trash"><i class="fas fa-trash-alt"></i></a>
+
+                          <a href="#" title="cog"><i class="fas fa-cog"></i></a>
+                        </div>
+                      </div>
+
+                      <!-- Main content list item add rules -->
+                      <div class="main__list-add-rules fl_col_sb text-center">
+                        <div class="fl_col_center">
+                          <i class="fas fa-plus"></i>
+                          <span>Add Rule</span>
+                        </div>
+
+                        <div class="fl_col_center">
+                          <i class="fas fa-plus"></i>
+                          <span>Add Compound Rule</span>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <!-- Main content list item -->
+              <div class="panel main__list-item font_oxygen_regular">
+                <!-- Main content list item head -->
+                <div class="main__list-head fl_row_sb">
+                  <span class="main__item-icon fl_row_center">
+                    <i class="fas fa-arrows-alt-v"></i>
+                  </span>
+
+                  <a class="collapsed" role="button" data-toggle="collapse"
+                     data-parent="#accordion" href="#item4" aria-expanded="false"
+                     aria-controls="item4"
+                  >
+                    Allow Patients to See Providers if/when...
+                  </a>
+
+                  <span class="main__item-count fl_row_cc">
+                    <span class="font_oxygen_bold">4</span>
+                    <i class="fas fa-angle-right"></i>
+                  </span>
+                </div>
+
+                <!-- Main content list body -->
+                <div id="item4" class="main__list-body panel-collapse collapse pos_rel"
+                     role="tabpanel" aria-labelledby="item4"
+                >
+                  <!-- Main content list datails -->
+                  <div class="main__list-item-details">
+                    <i class="fas fa-caret-down"></i>
+                    <span>Workflow details</span>
+                  </div>
+
+                  <!-- Main content list item body -->
+                  <div class="main__list-item-body">
+                    <div class="main__list-item-content fl_row">
+                      <!-- Main content list item rule -->
+                      <div class="main__list-rule fl_col_sb">
+                        <!-- Main content list item rule hed -->
+                        <div class="main__list-rule-head pos_rel fl_row_sb">
+                          <div class="main__list-rule-block bg_green1 main__list-rule-block_left fl_row_cc">
+                            <i class="fas fa-map-signs"></i>
+                          </div>
+
+                          <div class="main__list-rule-block bg_green2 main__list-rule-block_right fl_row_cc">
+                            <i class="fas fa-map-marker-alt"></i>
+                          </div>
+
+                          <div class="main__list-rule-plus fl_row_cc">
+                            <i class="fas fa-plus"></i>
+                          </div>
+                        </div>
+
+                        <!-- Main content list item rule body -->
+                        <div class="main__list-rule-body">
+                          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias aliquam cumque error, est
+                          eveniet facilis id in libero magnam magni maxime modi neque numquam obcaecati quae quaerat
+                          quis quos sit?
+                        </div>
+
+                        <!-- Main content list item rule footer -->
+                        <div class="main__list-rule-footer fl_row_sb">
+                          <form method="POST" action="/">
+                            <label class="rule-checkbox">
+                              <input type="checkbox">
+                              <span></span>
+                            </label>
+                          </form>
+
+                          <a href="#" title="trash"><i class="fas fa-trash-alt"></i></a>
+
+                          <a href="#" title="cog"><i class="fas fa-cog"></i></a>
+                        </div>
+                      </div>
+
+                      <!-- Main content list item rule -->
+                      <div class="main__list-rule fl_col_sb">
+                        <!-- Main content list item rule hed -->
+                        <div class="main__list-rule-head pos_rel fl_row_sb">
+                          <div class="main__list-rule-block bg_green1 main__list-rule-block_left fl_row_cc">
+                            <i class="fas fa-map-signs"></i>
+                          </div>
+
+                          <div class="main__list-rule-block bg_green2 main__list-rule-block_right fl_row_cc">
+                            <i class="fas fa-map-marker-alt"></i>
+                          </div>
+
+                          <div class="main__list-rule-plus fl_row_cc">
+                            <i class="fas fa-plus"></i>
+                          </div>
+                        </div>
+
+                        <!-- Main content list item rule body -->
+                        <div class="main__list-rule-body">
+                          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias aliquam cumque error, est
+                          eveniet facilis id in libero magnam magni maxime modi neque numquam obcaecati quae quaerat
+                          quis quos sit?
+                        </div>
+
+                        <!-- Main content list item rule footer -->
+                        <div class="main__list-rule-footer fl_row_sb">
+                          <form method="POST" action="/">
+                            <label class="rule-checkbox">
+                              <input type="checkbox">
+                              <span></span>
+                            </label>
+                          </form>
+
+                          <a href="#" title="trash"><i class="fas fa-trash-alt"></i></a>
+
+                          <a href="#" title="cog"><i class="fas fa-cog"></i></a>
+                        </div>
+                      </div>
+
+                      <!-- Main content list item rule -->
+                      <div class="main__list-rule fl_col_sb">
+                        <!-- Main content list item rule hed -->
+                        <div class="main__list-rule-head pos_rel fl_row_sb">
+                          <div class="main__list-rule-block bg_green1 main__list-rule-block_left fl_row_cc">
+                            <i class="fas fa-map-signs"></i>
+                          </div>
+
+                          <div class="main__list-rule-block bg_green2 main__list-rule-block_right fl_row_cc">
+                            <i class="fas fa-map-marker-alt"></i>
+                          </div>
+
+                          <div class="main__list-rule-plus fl_row_cc">
+                            <i class="fas fa-plus"></i>
+                          </div>
+                        </div>
+
+                        <!-- Main content list item rule body -->
+                        <div class="main__list-rule-body">
+                          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias aliquam cumque error, est
+                          eveniet facilis id in libero magnam magni maxime modi neque numquam obcaecati quae quaerat
+                          quis quos sit?
+                        </div>
+
+                        <!-- Main content list item rule footer -->
+                        <div class="main__list-rule-footer fl_row_sb">
+                          <form method="POST" action="/">
+                            <label class="rule-checkbox">
+                              <input type="checkbox">
+                              <span></span>
+                            </label>
+                          </form>
+
+                          <a href="#" title="trash"><i class="fas fa-trash-alt"></i></a>
+
+                          <a href="#" title="cog"><i class="fas fa-cog"></i></a>
+                        </div>
+                      </div>
+
+                      <!-- Main content list item rule -->
+                      <div class="main__list-rule fl_col_sb">
+                        <!-- Main content list item rule hed -->
+                        <div class="main__list-rule-head pos_rel fl_row_sb">
+                          <div class="main__list-rule-block bg_green1 main__list-rule-block_left fl_row_cc">
+                            <i class="fas fa-map-signs"></i>
+                          </div>
+
+                          <div class="main__list-rule-block bg_green2 main__list-rule-block_right fl_row_cc">
+                            <i class="fas fa-map-marker-alt"></i>
+                          </div>
+
+                          <div class="main__list-rule-plus fl_row_cc">
+                            <i class="fas fa-plus"></i>
+                          </div>
+                        </div>
+
+                        <!-- Main content list item rule body -->
+                        <div class="main__list-rule-body">
+                          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias aliquam cumque error, est
+                          eveniet facilis id in libero magnam magni maxime modi neque numquam obcaecati quae quaerat
+                          quis quos sit?
+                        </div>
+
+                        <!-- Main content list item rule footer -->
+                        <div class="main__list-rule-footer fl_row_sb">
+                          <form method="POST" action="/">
+                            <label class="rule-checkbox">
+                              <input type="checkbox">
+                              <span></span>
+                            </label>
+                          </form>
+
+                          <a href="#" title="trash"><i class="fas fa-trash-alt"></i></a>
+
+                          <a href="#" title="cog"><i class="fas fa-cog"></i></a>
+                        </div>
+                      </div>
+
+                      <!-- Main content list item add rules -->
+                      <div class="main__list-add-rules fl_col_sb text-center">
+                        <div class="fl_col_center">
+                          <i class="fas fa-plus"></i>
+                          <span>Add Rule</span>
+                        </div>
+
+                        <div class="fl_col_center">
+                          <i class="fas fa-plus"></i>
+                          <span>Add Compound Rule</span>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <!-- Main content list item -->
+              <div class="panel main__list-item font_oxygen_regular">
+                <!-- Main content list item head -->
+                <div class="main__list-head fl_row_sb">
+                  <span class="main__item-icon fl_row_center">
+                    <i class="fas fa-arrows-alt-v"></i>
+                  </span>
+
+                  <a class="collapsed" role="button" data-toggle="collapse"
+                     data-parent="#accordion" href="#item5" aria-expanded="false"
+                     aria-controls="item5"
+                  >
+                    Allow Providers to See Patients if/when...
+                  </a>
+
+                  <span class="main__item-count fl_row_cc">
+                    <span class="font_oxygen_bold">2</span>
+                    <i class="fas fa-angle-right"></i>
+                  </span>
+                </div>
+
+                <!-- Main content list body -->
+                <div id="item5" class="main__list-body panel-collapse collapse pos_rel"
+                     role="tabpanel" aria-labelledby="item1"
+                >
+                  <!-- Main content list datails -->
+                  <div class="main__list-item-details">
+                    <i class="fas fa-caret-down"></i>
+                    <span>Workflow details</span>
+                  </div>
+
+                  <!-- Main content list item body -->
+                  <div class="main__list-item-body">
+                    <div class="main__list-item-content fl_row">
+                      <!-- Main content list item rule -->
+                      <div class="main__list-rule fl_col_sb">
+                        <!-- Main content list item rule hed -->
+                        <div class="main__list-rule-head pos_rel fl_row_sb">
+                          <div class="main__list-rule-block bg_green1 main__list-rule-block_left fl_row_cc">
+                            <i class="fas fa-map-signs"></i>
+                          </div>
+
+                          <div class="main__list-rule-block bg_green2 main__list-rule-block_right fl_row_cc">
+                            <i class="fas fa-map-marker-alt"></i>
+                          </div>
+
+                          <div class="main__list-rule-plus fl_row_cc">
+                            <i class="fas fa-plus"></i>
+                          </div>
+                        </div>
+
+                        <!-- Main content list item rule body -->
+                        <div class="main__list-rule-body">
+                          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias aliquam cumque error, est
+                          eveniet facilis id in libero magnam magni maxime modi neque numquam obcaecati quae quaerat
+                          quis quos sit?
+                        </div>
+
+                        <!-- Main content list item rule footer -->
+                        <div class="main__list-rule-footer fl_row_sb">
+                          <form method="POST" action="/">
+                            <label class="rule-checkbox">
+                              <input type="checkbox">
+                              <span></span>
+                            </label>
+                          </form>
+
+                          <a href="#" title="trash"><i class="fas fa-trash-alt"></i></a>
+
+                          <a href="#" title="cog"><i class="fas fa-cog"></i></a>
+                        </div>
+                      </div>
+
+                      <!-- Main content list item rule -->
+                      <div class="main__list-rule fl_col_sb">
+                        <!-- Main content list item rule hed -->
+                        <div class="main__list-rule-head pos_rel fl_row_sb">
+                          <div class="main__list-rule-block bg_green1 main__list-rule-block_left fl_row_cc">
+                            <i class="fas fa-map-signs"></i>
+                          </div>
+
+                          <div class="main__list-rule-block bg_green2 main__list-rule-block_right fl_row_cc">
+                            <i class="fas fa-map-marker-alt"></i>
+                          </div>
+
+                          <div class="main__list-rule-plus fl_row_cc">
+                            <i class="fas fa-plus"></i>
+                          </div>
+                        </div>
+
+                        <!-- Main content list item rule body -->
+                        <div class="main__list-rule-body">
+                          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias aliquam cumque error, est
+                          eveniet facilis id in libero magnam magni maxime modi neque numquam obcaecati quae quaerat
+                          quis quos sit?
+                        </div>
+
+                        <!-- Main content list item rule footer -->
+                        <div class="main__list-rule-footer fl_row_sb">
+                          <form method="POST" action="/">
+                            <label class="rule-checkbox">
+                              <input type="checkbox">
+                              <span></span>
+                            </label>
+                          </form>
+
+                          <a href="#" title="trash"><i class="fas fa-trash-alt"></i></a>
+
+                          <a href="#" title="cog"><i class="fas fa-cog"></i></a>
+                        </div>
+                      </div>
+
+                      <!-- Main content list item add rules -->
+                      <div class="main__list-add-rules fl_col_sb text-center">
+                        <div class="fl_col_center">
+                          <i class="fas fa-plus"></i>
+                          <span>Add Rule</span>
+                        </div>
+
+                        <div class="fl_col_center">
+                          <i class="fas fa-plus"></i>
+                          <span>Add Compound Rule</span>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Site Menu -->
+<nav class="js-site-menu">
+  <ul>
+    <li><a href="#" title="menu">Home</a></li>
+    <li><a href="#" title="menu">Items</a></li>
+    <li><a href="#" title="menu">About</a></li>
+    <li><a href="#" title="menu">Contacts</a></li>
+  </ul>
+</nav>
+
+<!-- User Menu -->
+<div class="js-user-menu">
+  <ul>
+    <li><a href="#" title="menu">Provider Chat</a></li>
+    <li><a href="#" title="menu">Dashboard</a></li>
+    <li><a href="#" title="menu">Scheduler</a></li>
+    <li><a href="#" title="menu">Notifications</a></li>
+  </ul>
+</div>
+
+<!-- Page Loader -->
+<div class="loader"></div>
+
+<script src="js/app.js"></script>
+</body>
+</html>
